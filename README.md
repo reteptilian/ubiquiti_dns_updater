@@ -3,7 +3,7 @@ Scripts to switch between google and opendns name servers in a ubiquiti router c
 
 This can be used with cron to turn on opendns site filtering during certain times of the week.
 
-For example:
+For example, turn on opendns filtering from 7:30 am Monday UTC until noon Friday UTC (11:30pm Sunday PST to 4am Friday PST).
 
 ```
 # m h  dom mon dow   command
